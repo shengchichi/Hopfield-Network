@@ -1,6 +1,7 @@
 # Hopfield Network
 ## Neural Network Project3
     Implement Hopfield Network with GUI 
+### Program
     Input: Dataset ==> Basic_training/Basic_testing and HOPFIELD_Training/HOPFIELD_Testing 
 	Output: Select the training and testing dataset. Each dataset contains multiple data. 
 		Press the recall button to recall the testing data back to the training data.
