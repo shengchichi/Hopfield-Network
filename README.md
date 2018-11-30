@@ -13,10 +13,10 @@
 [HOPFIELD_Testing](/Hotfield/HOPFIELD_Testing.txt)
 
 ## Example
-####HOPFIELD_Training & HOPFIELD_Testing
+### HOPFIELD_Training & HOPFIELD_Testing
 ![example](/IMAGE/ex1.png)
 ![example](/IMAGE/ex2.png)
 
-####Press next
+### Press next
 ![example](/IMAGE/ex3.png)
 ![example](/IMAGE/ex4.png)
