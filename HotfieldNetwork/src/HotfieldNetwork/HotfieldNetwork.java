@@ -1,4 +1,4 @@
-package HotfieldNetwork;
+ï»¿package HotfieldNetwork;
 
 import java.awt.BorderLayout;
 import java.awt.Canvas;
@@ -19,16 +19,16 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class HotfieldNetwork implements ActionListener{
-	String[] test = {"°ò¥»train","°ò¥»test","HOPFIELD_Training","HOPFIELD_Testing"};
-	JFrame frame = new JFrame("Hotfield");
+	String[] test = {"Basic_Train","Basic_Test","HOPFIELD_Training","HOPFIELD_Testing"};
+	JFrame frame = new JFrame("Hopfield");
 	JPanel before = new JPanel();
 	JComboBox select = new JComboBox(test);
 	String selectedFile;
 	ArrayList<String> string = new ArrayList<String>(); 
 	JPanel after = new JPanel();
 	JPanel gui = new JPanel();
-	JButton back = new JButton("¦^·¹");
-	JButton next = new JButton("¤U¤@µ§");
+	JButton back = new JButton("recall");
+	JButton next = new JButton("next");
 	
 	JLabel arr[];
 	int column;
@@ -90,11 +90,11 @@ public class HotfieldNetwork implements ActionListener{
 		String s = (String) select.getSelectedItem();//get the selected item
         switch (s) 
         {//check for a match
-            case "°ò¥»train":
+            case "Basic_Train":
             	data=1;
                 train = true;
                 break;
-            case "°ò¥»test":
+            case "Basic_Test":
             	data=1;
             	train = false;
                 break;
@@ -113,7 +113,7 @@ public class HotfieldNetwork implements ActionListener{
         	if(keep==false)
         	{
         		if(data == 1)
-            		selectedFile = "°ò¥»ÃDTraining.txt";
+            		selectedFile = "åŸºæœ¬é¡ŒTraining.txt";
             	if(data == 2)
             		selectedFile = "HOPFIELD_Training.txt";
             	
@@ -152,7 +152,7 @@ public class HotfieldNetwork implements ActionListener{
         	if(keep==false)
         	{
         		if(data == 1)
-            		selectedFile = "°ò¥»ÃDTesting.txt";
+            		selectedFile = "åŸºæœ¬é¡ŒTesting.txt";
             	if(data == 2)
             		selectedFile = "HOPFIELD_Testing.txt";
             	scan();
