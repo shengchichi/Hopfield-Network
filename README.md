@@ -13,10 +13,13 @@
 [HOPFIELD_Testing](/Hotfield/HOPFIELD_Testing.txt)  
 
 ## Example
-### HOPFIELD_Training & HOPFIELD_Testing
-![example](/IMAGE/ex1.png)  
+### Select HOPFIELD_Training & HOPFIELD_Testing
+![example](/IMAGE/ex1.png) 
+
+### Press recall  
 ![example](/IMAGE/ex2.png)  
 
 ### Press next
 ![example](/IMAGE/ex3.png)  
+### Press recall  
 ![example](/IMAGE/ex4.png)  
